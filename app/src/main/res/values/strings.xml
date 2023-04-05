@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Mgeni</string>
+    <string name="home">Home</string>
+    <string name="checkin">Checkin</string>
+    <string name="checkout">checkout</string>
+    <string name="pointing_message">Point towards the card and take a picture</string>
+    <string name="ok">OK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="visitor_types">
+        <item>Staff</item>
+        <item>Visitor</item>
+        <item>Contractor</item>
+    </string-array>
+
+    <string-array name="visit_reason">
+        <item>Walk In</item>
+        <item>Booked</item>
+    </string-array>
+
+    <string-array name="checkin_types">
+        <item>Meeting</item>
+        <item>Delivery</item>
+        <item>work</item>
+        <item>Meeting</item>
+    </string-array>
+    <string name="confirm">Confirm</string>
+    <string name="doc_no">Doc No:</string>
+    <string name="id">ID:</string>
+    <string name="dob">DOB:</string>
+    <string name="gender">Gender:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="middle_name">Middle Name:</string>
+    <string name="first_name">First Name:</string>
+    <string name="rescan">Rescan</string>
+    <string name="coop_bank">Coop Bank</string>
+</resources>
