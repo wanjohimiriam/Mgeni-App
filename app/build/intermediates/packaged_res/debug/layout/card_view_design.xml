@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/tvIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rounded_drawable"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="@color/cardColor2"
+        android:textSize="20sp" />
+
+     <TextView
+        android:id="@+id/tvVisitorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/tvIcon"
+         android:text="TextView"
+        android:textSize="16sp"
+         android:textColor="@color/cardColor2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvVisitorHost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvVisitorName"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/cardColor2"
+        android:layout_toEndOf="@+id/tvIcon"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvVisitorReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvVisitorHost"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/cardColor2"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tvIcon"
+        android:text="This is a very long text and we need to show 3...(dots)" />
+
+    <TextView
+        android:id="@+id/tvCheckInTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tvVisitorHost"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/textColor2"
+        android:layout_marginEnd="10dp"
+        android:text="TextView" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:layout_below="@+id/tvVisitorReason"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+</RelativeLayout>

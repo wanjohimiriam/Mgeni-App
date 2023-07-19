@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="checkin_types">
+        <item>Meeting</item>
+        <item>Delivery</item>
+        <item>work</item>
+        <item>Meeting</item>
+    </string-array>
+    <string-array name="visit_reason">
+        <item>Walk In</item>
+        <item>Booked</item>
+    </string-array>
+    <string-array name="visitor_types">
+        <item>Staff</item>
+        <item>Visitor</item>
+        <item>Contractor</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="buttonColor">#000000</color>
+    <color name="cardColor">#FFD662</color>
+    <color name="cardColor2">#004481</color>
+    <color name="colorPrimary">#00acdf</color>
+    <color name="colorPrimaryLight">#1A659E</color>
+    <color name="colorSecLight">#F7C59F</color>
+    <color name="colorSecondary">#FF6B35</color>
+    <color name="textColor">#000000</color>
+    <color name="textColor2">#FFFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Mgeni</string>
+    <string name="checkin">Checkin</string>
+    <string name="checkout">checkout</string>
+    <string name="confirm">Confirm</string>
+    <string name="coop_bank">Coop Bank</string>
+    <string name="default_web_client_id" translatable="false">236540295879-sdksio9tdci7kn7qa5euflcrvd90r4ai.apps.googleusercontent.com</string>
+    <string name="dob">DOB:</string>
+    <string name="doc_no">Doc No:</string>
+    <string name="first_name">First Name:</string>
+    <string name="gcm_defaultSenderId" translatable="false">236540295879</string>
+    <string name="gender">Gender:</string>
+    <string name="google_api_key" translatable="false">AIzaSyB23Ha4bR6uaOVo-V93jIwAIaA7wVp2bB8</string>
+    <string name="google_app_id" translatable="false">1:236540295879:android:5721930fc95944250e1ce2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB23Ha4bR6uaOVo-V93jIwAIaA7wVp2bB8</string>
+    <string name="google_storage_bucket" translatable="false">coffee-brew-6bd1d.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="id">ID:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="middle_name">Middle Name:</string>
+    <string name="ok">OK</string>
+    <string name="pointing_message">Point towards the card and take a picture</string>
+    <string name="project_id" translatable="false">coffee-brew-6bd1d</string>
+    <string name="rescan">Rescan</string>
+    <style name="Theme.Mgeni" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">#FFD662</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecLight</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+
+
+    </style>
+    <style name="leaf">
+    <item name="cornerSizeTopLeft">70%</item>           //can specify corner position
+    
+    <item name="cornerSizeBottomRight">70%</item>
+    
+</style>
+    <declare-styleable name="TextOverlay">
+        <attr format="color" name="backgroundColor"/>
+    </declare-styleable>
+</resources>

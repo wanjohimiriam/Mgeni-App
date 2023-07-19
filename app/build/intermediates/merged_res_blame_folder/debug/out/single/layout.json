@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\activity_home_page.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\fragment_checkout.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\fragment_checkout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\mrz_card_view_layout.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\mrz_card_view_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\activity_check_in.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_check_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\activity_main_mrz.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_main_mrz.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\activity_password.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\dashboard.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\dashboard.xml"
+    },
+    {
+        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_login.xml",
+        "source": "com.impax.mgeni.app-main-58:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\activity_check_out.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_check_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\fragment_checkin.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\fragment_checkin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\activity_otpactivity.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_otpactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\content_home.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\content_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\card_view_design.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\card_view_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\activity_ocractivity.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_ocractivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\home_content.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\home_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-mergeDebugResources-55:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_profile.xml"
+    }
+]

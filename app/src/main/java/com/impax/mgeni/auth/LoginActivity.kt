@@ -7,6 +7,9 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
+import android.view.View
+import android.view.Window
+import android.view.WindowManager
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -59,6 +62,7 @@ class LoginActivity : AppCompatActivity()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+
         context=this
         sharedPrefs = SharedPrefs(this)
 
@@ -91,7 +95,7 @@ class LoginActivity : AppCompatActivity()
                     if (s.isNotEmpty())
                     {
 
-                        loadUserDetails(s.toString())
+                        //loadUserDetails(s.toString())
                     }
                 }
             }
@@ -105,8 +109,6 @@ class LoginActivity : AppCompatActivity()
             startActivity(i)
         }
 
-
-
         // On Login button Click
         btnLogin.setOnClickListener{
             if (textEmail.editText?.text.toString().isEmpty() || textPassword.editText?.text.toString().isEmpty()
@@ -117,10 +119,10 @@ class LoginActivity : AppCompatActivity()
                     Toast.LENGTH_SHORT
                 ).show()
             } else {
-                login(
-                    textEmail.editText?.text.toString(),
-                    textPassword.editText?.text.toString()
-                )
+//                login(
+//                    textEmail.editText?.text.toString(),
+//                    textPassword.editText?.text.toString()
+//                )
             }
         }
 
@@ -135,100 +137,100 @@ class LoginActivity : AppCompatActivity()
             val i =Intent(this, HomePage::class.java)
             startActivity(i)
         }/*else
-        {
-            val i = Intent(this, MainActivity::class.java)
-            startActivity(i)
-        }*/
+//        {
+//            val i = Intent(this, MainActivity::class.java)
+//            startActivity(i)
+//        }*/
     }
 
-    private fun loadUserDetails(email: String)
-    {
-        val retIn = RetrofitInstance.getRetrofitInstance().create(ServiceInterface::class.java)
-        retIn.getUsersByEmail(email)?.enqueue(object : Callback<users>
-        {
-            override fun onResponse(call: Call<users>, response: Response<users>)
-            {
-                Log.d("resp",response.message())
-                Log.d("otp",""+response.body()?.otp)
-                Log.d("number",""+response.body()?.phone_number)
-                 userPhone = response.body()?.phone_number
-                userEmail=response.body()?.email
-                if (response.isSuccessful)
-                {
-                    if(response.body()?.otp.isNullOrEmpty())
-                    {
-                        btnLogin.isVisible=false
-                        btnOTP.isVisible=true
-                        textPhone.isVisible=true
-                        cardPhone.isVisible=true
-                        cardPassword.isVisible=false
-                        textPass.isVisible=false
-                        resetPassword.isVisible=false
-
-                        textPhoneText.setText(userPhone)
-
-
-                    }else
-                    {
-
-                        cardPassword.isVisible=true
-                        textPass.isVisible=true
-                        textPhone.isVisible=false
-                        cardPhone.isVisible=false
-                        btnOTP.isVisible=false
-                        btnLogin.isVisible=true
-                        resetPassword.isVisible=true
-                    }
-
-                }
-                else {
-                    Toast.makeText(context, "Incorrect Email Address, please contact your Admin", Toast.LENGTH_SHORT)
-                        .show()
-
-                }
-            }
-
-            override fun onFailure(call: Call<users>, t: Throwable)
-            {
-                Toast.makeText(
-                    context,
-                    t.message,
-                    Toast.LENGTH_SHORT
-                ).show()
-            }
-
-        })
-    }
-
-    private fun login(email: String, password: String)
-    {
-        val retIn = RetrofitInstance.getRetrofitInstance().create(ServiceInterface::class.java)
-        val call: Call<User_Model>? = retIn.login(email, password)
-        call!!.enqueue(object : Callback<User_Model> {
-            override fun onResponse(call: Call<User_Model>, response: Response<User_Model>) {
-                Log.d("response456", response.message())
-                if (response.body() != null)
-                {
-                    val intent = Intent(context, HomePage::class.java)
-                    sharedPrefs?.putItem("userId", response.body()!!.userId)
-                    sharedPrefs?.putItem("tenantId", response.body()!!.tenantId)
-                    sharedPrefs?.putItem("tenantName", response.body()!!.tenantName)
-                    sharedPrefs?.putItem("email", email)
-                    sharedPrefs?.putItem("loggedIn", "loggedIn")
-                    startActivity(intent)
-                } else {
-                    Toast.makeText(context,"Login credentials not correct,Please try again",Toast.LENGTH_SHORT).show();
-                }
-            }
-
-            override fun onFailure(call: Call<User_Model>, t: Throwable)
-            {
-                Log.d("LoginRes", t.localizedMessage)
-                Toast.makeText(context,"Login credentials not correct,Please try again",Toast.LENGTH_SHORT).show();
-            }
-        })
-
-    }
+//    private fun loadUserDetails(email: String)
+//    {
+//        val retIn = RetrofitInstance.getRetrofitInstance().create(ServiceInterface::class.java)
+//        retIn.getUsersByEmail(email)?.enqueue(object : Callback<users>
+//        {
+//            override fun onResponse(call: Call<users>, response: Response<users>)
+//            {
+//                Log.d("resp",response.message())
+//                Log.d("otp",""+response.body()?.otp)
+//                Log.d("number",""+response.body()?.phone_number)
+//                 userPhone = response.body()?.phone_number
+//                userEmail=response.body()?.email
+//                if (response.isSuccessful)
+//                {
+//                    if(response.body()?.otp.isNullOrEmpty())
+//                    {
+//                        btnLogin.isVisible=false
+//                        btnOTP.isVisible=true
+//                        textPhone.isVisible=true
+//                        cardPhone.isVisible=true
+//                        cardPassword.isVisible=false
+//                        textPass.isVisible=false
+//                        resetPassword.isVisible=false
+//
+//                        textPhoneText.setText(userPhone)
+//
+//
+//                    }else
+//                    {
+//
+//                        cardPassword.isVisible=true
+//                        textPass.isVisible=true
+//                        textPhone.isVisible=false
+//                        cardPhone.isVisible=false
+//                        btnOTP.isVisible=false
+//                        btnLogin.isVisible=true
+//                        resetPassword.isVisible=true
+//                    }
+//
+//                }
+//                else {
+//                    Toast.makeText(context, "Incorrect Email Address, please contact your Admin", Toast.LENGTH_SHORT)
+//                        .show()
+//
+//                }
+//            }
+//
+//            override fun onFailure(call: Call<users>, t: Throwable)
+//            {
+//                Toast.makeText(
+//                    context,
+//                    t.message,
+//                    Toast.LENGTH_SHORT
+//                ).show()
+//            }
+//
+//        })
+//    }
+//
+//    private fun login(email: String, password: String)
+//    {
+//        val retIn = RetrofitInstance.getRetrofitInstance().create(ServiceInterface::class.java)
+//        val call: Call<User_Model>? = retIn.login(email, password)
+//        call!!.enqueue(object : Callback<User_Model> {
+//            override fun onResponse(call: Call<User_Model>, response: Response<User_Model>) {
+//                Log.d("response456", response.message())
+//                if (response.body() != null)
+//                {
+//                    val intent = Intent(context, HomePage::class.java)
+//                    sharedPrefs?.putItem("userId", response.body()!!.userId)
+//                    sharedPrefs?.putItem("tenantId", response.body()!!.tenantId)
+//                    sharedPrefs?.putItem("tenantName", response.body()!!.tenantName)
+//                    sharedPrefs?.putItem("email", email)
+//                    sharedPrefs?.putItem("loggedIn", "loggedIn")
+//                    startActivity(intent)
+//                } else {
+//                    Toast.makeText(context,"Login credentials not correct,Please try again",Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//
+//            override fun onFailure(call: Call<User_Model>, t: Throwable)
+//            {
+//                Log.d("LoginRes", t.localizedMessage)
+//                Toast.makeText(context,"Login credentials not correct,Please try again",Toast.LENGTH_SHORT).show();
+//            }
+//        })
+//
+//    }
 
     override fun onBackPressed()
     {
