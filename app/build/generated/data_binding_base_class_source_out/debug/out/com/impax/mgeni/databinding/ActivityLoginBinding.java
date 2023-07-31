@@ -4,16 +4,14 @@ package com.impax.mgeni.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.TextView;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
+import androidx.viewpager.widget.ViewPager;
+import com.google.android.material.tabs.TabLayout;
 import com.impax.mgeni.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -24,78 +22,20 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button OTPBtn;
+  public final ImageView imageView2;
 
   @NonNull
-  public final TextInputLayout PasswordTextField;
+  public final TabLayout tabsLayout;
 
   @NonNull
-  public final TextInputLayout PhoneTextField;
+  public final ViewPager viewpager;
 
-  @NonNull
-  public final CardView companyLayout;
-
-  @NonNull
-  public final TextInputEditText emailAddress;
-
-  @NonNull
-  public final TextView emailLabel;
-
-  @NonNull
-  public final Button loginBtn;
-
-  @NonNull
-  public final TextView logoView;
-
-  @NonNull
-  public final TextView passLabel;
-
-  @NonNull
-  public final CardView passLayout;
-
-  @NonNull
-  public final TextView phoneLabel;
-
-  @NonNull
-  public final CardView phoneLayout;
-
-  @NonNull
-  public final TextView resetPass;
-
-  @NonNull
-  public final TextInputEditText textPassword;
-
-  @NonNull
-  public final TextInputEditText textPhone;
-
-  @NonNull
-  public final TextInputLayout usernameTextField;
-
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button OTPBtn,
-      @NonNull TextInputLayout PasswordTextField, @NonNull TextInputLayout PhoneTextField,
-      @NonNull CardView companyLayout, @NonNull TextInputEditText emailAddress,
-      @NonNull TextView emailLabel, @NonNull Button loginBtn, @NonNull TextView logoView,
-      @NonNull TextView passLabel, @NonNull CardView passLayout, @NonNull TextView phoneLabel,
-      @NonNull CardView phoneLayout, @NonNull TextView resetPass,
-      @NonNull TextInputEditText textPassword, @NonNull TextInputEditText textPhone,
-      @NonNull TextInputLayout usernameTextField) {
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
+      @NonNull TabLayout tabsLayout, @NonNull ViewPager viewpager) {
     this.rootView = rootView;
-    this.OTPBtn = OTPBtn;
-    this.PasswordTextField = PasswordTextField;
-    this.PhoneTextField = PhoneTextField;
-    this.companyLayout = companyLayout;
-    this.emailAddress = emailAddress;
-    this.emailLabel = emailLabel;
-    this.loginBtn = loginBtn;
-    this.logoView = logoView;
-    this.passLabel = passLabel;
-    this.passLayout = passLayout;
-    this.phoneLabel = phoneLabel;
-    this.phoneLayout = phoneLayout;
-    this.resetPass = resetPass;
-    this.textPassword = textPassword;
-    this.textPhone = textPhone;
-    this.usernameTextField = usernameTextField;
+    this.imageView2 = imageView2;
+    this.tabsLayout = tabsLayout;
+    this.viewpager = viewpager;
   }
 
   @Override
@@ -125,106 +65,26 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.OTPBtn;
-      Button OTPBtn = ViewBindings.findChildViewById(rootView, id);
-      if (OTPBtn == null) {
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
         break missingId;
       }
 
-      id = R.id.PasswordTextField;
-      TextInputLayout PasswordTextField = ViewBindings.findChildViewById(rootView, id);
-      if (PasswordTextField == null) {
+      id = R.id.tabs_layout;
+      TabLayout tabsLayout = ViewBindings.findChildViewById(rootView, id);
+      if (tabsLayout == null) {
         break missingId;
       }
 
-      id = R.id.PhoneTextField;
-      TextInputLayout PhoneTextField = ViewBindings.findChildViewById(rootView, id);
-      if (PhoneTextField == null) {
+      id = R.id.viewpager;
+      ViewPager viewpager = ViewBindings.findChildViewById(rootView, id);
+      if (viewpager == null) {
         break missingId;
       }
 
-      id = R.id.companyLayout;
-      CardView companyLayout = ViewBindings.findChildViewById(rootView, id);
-      if (companyLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.emailAddress;
-      TextInputEditText emailAddress = ViewBindings.findChildViewById(rootView, id);
-      if (emailAddress == null) {
-        break missingId;
-      }
-
-      id = R.id.emailLabel;
-      TextView emailLabel = ViewBindings.findChildViewById(rootView, id);
-      if (emailLabel == null) {
-        break missingId;
-      }
-
-      id = R.id.loginBtn;
-      Button loginBtn = ViewBindings.findChildViewById(rootView, id);
-      if (loginBtn == null) {
-        break missingId;
-      }
-
-      id = R.id.logoView;
-      TextView logoView = ViewBindings.findChildViewById(rootView, id);
-      if (logoView == null) {
-        break missingId;
-      }
-
-      id = R.id.passLabel;
-      TextView passLabel = ViewBindings.findChildViewById(rootView, id);
-      if (passLabel == null) {
-        break missingId;
-      }
-
-      id = R.id.passLayout;
-      CardView passLayout = ViewBindings.findChildViewById(rootView, id);
-      if (passLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.phoneLabel;
-      TextView phoneLabel = ViewBindings.findChildViewById(rootView, id);
-      if (phoneLabel == null) {
-        break missingId;
-      }
-
-      id = R.id.phoneLayout;
-      CardView phoneLayout = ViewBindings.findChildViewById(rootView, id);
-      if (phoneLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.resetPass;
-      TextView resetPass = ViewBindings.findChildViewById(rootView, id);
-      if (resetPass == null) {
-        break missingId;
-      }
-
-      id = R.id.textPassword;
-      TextInputEditText textPassword = ViewBindings.findChildViewById(rootView, id);
-      if (textPassword == null) {
-        break missingId;
-      }
-
-      id = R.id.textPhone;
-      TextInputEditText textPhone = ViewBindings.findChildViewById(rootView, id);
-      if (textPhone == null) {
-        break missingId;
-      }
-
-      id = R.id.usernameTextField;
-      TextInputLayout usernameTextField = ViewBindings.findChildViewById(rootView, id);
-      if (usernameTextField == null) {
-        break missingId;
-      }
-
-      return new ActivityLoginBinding((ConstraintLayout) rootView, OTPBtn, PasswordTextField,
-          PhoneTextField, companyLayout, emailAddress, emailLabel, loginBtn, logoView, passLabel,
-          passLayout, phoneLabel, phoneLayout, resetPass, textPassword, textPhone,
-          usernameTextField);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, imageView2, tabsLayout,
+          viewpager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

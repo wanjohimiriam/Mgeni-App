@@ -22,6 +22,7 @@ drawable camera
 drawable checkin
 drawable checkout
 drawable custom_rectangle
+drawable edit_textbg
 drawable email
 drawable ic_back
 drawable ic_baseline_account_circle_24
@@ -42,6 +43,7 @@ drawable qr_code
 drawable rounded_drawable
 drawable shapesignup
 drawable usman
+drawable view_bg
 drawable visitors
 drawable white_btn_background
 font roboto_black
@@ -62,11 +64,14 @@ id AssetTypeTextField
 id AssetType_text
 id CheckInTypeTextField
 id CheckInType_text
+id ConfirmPasswordTextField
+id ConfirmpassLayout
 id IdTextField
 id Id_text
 id NameTextField
 id OTPBtn
 id PasswordTextField
+id PhoneTTextField
 id PhoneTextField
 id RegNoTextField
 id SerialNoTextField
@@ -120,6 +125,7 @@ id hostNameTextField
 id hostName_text
 id idTv
 id imageView
+id imageView2
 id lNameTv
 id layout
 id layout1
@@ -136,6 +142,7 @@ id passLayout
 id passwordTextField
 id phoneLabel
 id phoneLayout
+id phoneLayoutt
 id phoneNumber
 id phone_text
 id printBtn
@@ -157,8 +164,12 @@ id saveBtn
 id scanButton
 id scroll
 id serialNo_text
+id signBtn
+id tabs
+id tabs_layout
 id tenantName
 id textConfirmPass
+id textConfirmPassPassword
 id textName
 id textOverLay
 id textPassword
@@ -170,6 +181,7 @@ id textView3
 id textView4
 id textView6
 id textView9
+id texttPhone
 id time
 id todayCheckouts
 id totalCheckins
@@ -181,10 +193,12 @@ id tvVisitorReason
 id usernameTextField
 id view
 id viewFinder
+id viewpager
 layout activity_check_in
 layout activity_check_out
 layout activity_home_page
 layout activity_login
+layout activity_login_0ld
 layout activity_main
 layout activity_main_mrz
 layout activity_ocractivity
@@ -198,7 +212,9 @@ layout fragment_checkin
 layout fragment_checkout
 layout fragment_home
 layout home_content
+layout login_tab
 layout mrz_card_view_layout
+layout signup_tab
 menu bottom_menu
 mipmap ic_launcher
 mipmap ic_launcher_round

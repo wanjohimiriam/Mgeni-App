@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\mrz_card_view_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\layout_activity_password.xml.flat",
-        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_password.xml"
-    },
-    {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\drawable_password.xml.flat",
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\drawable\\password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\layout_activity_password.xml.flat",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_password.xml"
     },
     {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\drawable_email.xml.flat",
@@ -100,6 +100,10 @@
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\drawable\\backgroung1.jpg"
     },
     {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\drawable_edit_textbg.xml.flat",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\drawable\\edit_textbg.xml"
+    },
+    {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\font_roboto_regular.ttf.flat",
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\font\\roboto_regular.ttf"
     },
@@ -140,6 +144,10 @@
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\font\\roboto_black.ttf"
     },
     {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\layout_signup_tab.xml.flat",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\signup_tab.xml"
+    },
+    {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\layout_activity_home_page.xml.flat",
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_home_page.xml"
     },
@@ -176,16 +184,16 @@
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_main_mrz.xml"
     },
     {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\drawable_view_bg.xml.flat",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\drawable\\view_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\drawable_custom_rectangle.xml.flat",
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\drawable\\custom_rectangle.xml"
     },
     {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\layout_dashboard.xml.flat",
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\dashboard.xml"
-    },
-    {
-        "merged": "com.impax.mgeni.app-merged_res-56:/layout_activity_login.xml.flat",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -210,6 +218,14 @@
     {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\drawable_ic_camera.xml.flat",
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\drawable\\ic_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\layout_login_tab.xml.flat",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\login_tab.xml"
+    },
+    {
+        "merged": "com.impax.mgeni.app-merged_res-56:/layout_signup_tab.xml.flat",
+        "source": "com.impax.mgeni.app-main-58:/layout/signup_tab.xml"
     },
     {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\font_roboto_bold.ttf.flat",
@@ -298,6 +314,10 @@
     {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\layout_activity_login_0ld.xml.flat",
+        "source": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-main-58:\\layout\\activity_login_0ld.xml"
     },
     {
         "merged": "C:\\Users\\Intern\\.gradle\\daemon\\7.5\\com.impax.mgeni.app-merged_res-56:\\font_roboto_italic.ttf.flat",

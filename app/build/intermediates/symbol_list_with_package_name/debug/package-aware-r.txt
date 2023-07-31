@@ -2689,6 +2689,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit_textbg
 drawable email
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -2791,6 +2792,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable usman
+drawable view_bg
 drawable visitors
 drawable white_btn_background
 font roboto_black
@@ -2815,6 +2817,8 @@ id BOTTOM_START
 id CTRL
 id CheckInTypeTextField
 id CheckInType_text
+id ConfirmPasswordTextField
+id ConfirmpassLayout
 id FUNCTION
 id IdTextField
 id Id_text
@@ -2823,6 +2827,7 @@ id NO_DEBUG
 id NameTextField
 id OTPBtn
 id PasswordTextField
+id PhoneTTextField
 id PhoneTextField
 id RegNoTextField
 id SHIFT
@@ -3104,6 +3109,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id immediateStop
 id included
 id indeterminate
@@ -3237,6 +3243,7 @@ id percent
 id performance
 id phoneLabel
 id phoneLayout
+id phoneLayoutt
 id phoneNumber
 id phone_text
 id pin
@@ -3303,6 +3310,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signBtn
 id sin
 id skipCollapsed
 id skipped
@@ -3338,6 +3346,8 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tabs
+id tabs_layout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3355,6 +3365,7 @@ id tenantName
 id text
 id text2
 id textConfirmPass
+id textConfirmPassPassword
 id textEnd
 id textName
 id textOverLay
@@ -3380,6 +3391,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id texttPhone
 id time
 id title
 id titleDividerNoCustom
@@ -3419,6 +3431,7 @@ id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
+id viewpager
 id visible
 id visible_removing_fragment_view_tag
 id west
@@ -3558,6 +3571,7 @@ layout activity_check_in
 layout activity_check_out
 layout activity_home_page
 layout activity_login
+layout activity_login_0ld
 layout activity_main
 layout activity_main_mrz
 layout activity_ocractivity
@@ -3591,6 +3605,7 @@ layout fragment_checkin
 layout fragment_checkout
 layout fragment_home
 layout home_content
+layout login_tab
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3649,6 +3664,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout signup_tab
 layout support_simple_spinner_dropdown_item
 menu bottom_menu
 mipmap ic_launcher
