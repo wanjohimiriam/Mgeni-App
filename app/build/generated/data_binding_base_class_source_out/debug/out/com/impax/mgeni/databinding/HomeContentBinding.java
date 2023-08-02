@@ -4,6 +4,7 @@ package com.impax.mgeni.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -21,6 +22,9 @@ import java.lang.String;
 public final class HomeContentBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final ImageButton ProfileImage;
 
   @NonNull
   public final CardView cardView;
@@ -47,6 +51,9 @@ public final class HomeContentBinding implements ViewBinding {
   public final TextView qrcode;
 
   @NonNull
+  public final TextView scanHere;
+
+  @NonNull
   public final TextView tenantName;
 
   @NonNull
@@ -61,12 +68,14 @@ public final class HomeContentBinding implements ViewBinding {
   @NonNull
   public final View view;
 
-  private HomeContentBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
-      @NonNull CardView cardView1, @NonNull TextView checkOut, @NonNull ImageView checkOutIcon,
-      @NonNull ImageView checkinIcon, @NonNull LinearLayout layout, @NonNull LinearLayout layout1,
-      @NonNull TextView qrcode, @NonNull TextView tenantName, @NonNull TextView textView,
-      @NonNull TextView textView2, @NonNull TextView time, @NonNull View view) {
+  private HomeContentBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton ProfileImage,
+      @NonNull CardView cardView, @NonNull CardView cardView1, @NonNull TextView checkOut,
+      @NonNull ImageView checkOutIcon, @NonNull ImageView checkinIcon, @NonNull LinearLayout layout,
+      @NonNull LinearLayout layout1, @NonNull TextView qrcode, @NonNull TextView scanHere,
+      @NonNull TextView tenantName, @NonNull TextView textView, @NonNull TextView textView2,
+      @NonNull TextView time, @NonNull View view) {
     this.rootView = rootView;
+    this.ProfileImage = ProfileImage;
     this.cardView = cardView;
     this.cardView1 = cardView1;
     this.checkOut = checkOut;
@@ -75,6 +84,7 @@ public final class HomeContentBinding implements ViewBinding {
     this.layout = layout;
     this.layout1 = layout1;
     this.qrcode = qrcode;
+    this.scanHere = scanHere;
     this.tenantName = tenantName;
     this.textView = textView;
     this.textView2 = textView2;
@@ -109,6 +119,12 @@ public final class HomeContentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Profile_Image;
+      ImageButton ProfileImage = ViewBindings.findChildViewById(rootView, id);
+      if (ProfileImage == null) {
+        break missingId;
+      }
+
       id = R.id.cardView;
       CardView cardView = ViewBindings.findChildViewById(rootView, id);
       if (cardView == null) {
@@ -157,6 +173,12 @@ public final class HomeContentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.scanHere;
+      TextView scanHere = ViewBindings.findChildViewById(rootView, id);
+      if (scanHere == null) {
+        break missingId;
+      }
+
       id = R.id.tenantName;
       TextView tenantName = ViewBindings.findChildViewById(rootView, id);
       if (tenantName == null) {
@@ -187,9 +209,9 @@ public final class HomeContentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new HomeContentBinding((ConstraintLayout) rootView, cardView, cardView1, checkOut,
-          checkOutIcon, checkinIcon, layout, layout1, qrcode, tenantName, textView, textView2, time,
-          view);
+      return new HomeContentBinding((ConstraintLayout) rootView, ProfileImage, cardView, cardView1,
+          checkOut, checkOutIcon, checkinIcon, layout, layout1, qrcode, scanHere, tenantName,
+          textView, textView2, time, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

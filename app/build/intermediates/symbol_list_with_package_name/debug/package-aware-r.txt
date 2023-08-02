@@ -2786,6 +2786,7 @@ drawable password
 drawable primary_button
 drawable profile
 drawable qr_code
+drawable rounded_bg
 drawable rounded_drawable
 drawable shapesignup
 drawable test_level_drawable
@@ -2829,6 +2830,7 @@ id OTPBtn
 id PasswordTextField
 id PhoneTTextField
 id PhoneTextField
+id Profile_Image
 id RegNoTextField
 id SHIFT
 id SHOW_ALL
@@ -3284,6 +3286,7 @@ id save_overlay_view
 id sawtooth
 id scale
 id scanButton
+id scanHere
 id screen
 id scroll
 id scrollIndicatorDown

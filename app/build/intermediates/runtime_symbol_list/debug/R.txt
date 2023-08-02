@@ -2785,6 +2785,7 @@ int drawable password 0x7f0800f8
 int drawable primary_button 0x7f0800f9
 int drawable profile 0x7f0800fa
 int drawable qr_code 0x7f0800fb
+int drawable rounded_bg 0x7f080105
 int drawable rounded_drawable 0x7f0800fc
 int drawable shapesignup 0x7f0800fd
 int drawable test_level_drawable 0x7f0800fe
@@ -2828,6 +2829,7 @@ int id OTPBtn 0x7f0a0010
 int id PasswordTextField 0x7f0a0011
 int id PhoneTTextField 0x7f0a027c
 int id PhoneTextField 0x7f0a0012
+int id Profile_Image 0x7f0a0282
 int id RegNoTextField 0x7f0a0013
 int id SHIFT 0x7f0a0014
 int id SHOW_ALL 0x7f0a0015
@@ -3283,6 +3285,7 @@ int id save_overlay_view 0x7f0a01d8
 int id sawtooth 0x7f0a01d9
 int id scale 0x7f0a01da
 int id scanButton 0x7f0a01db
+int id scanHere 0x7f0a0281
 int id screen 0x7f0a01dc
 int id scroll 0x7f0a01dd
 int id scrollIndicatorDown 0x7f0a01de

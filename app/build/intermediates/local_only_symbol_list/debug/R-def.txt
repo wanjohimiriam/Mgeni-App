@@ -40,6 +40,7 @@ drawable password
 drawable primary_button
 drawable profile
 drawable qr_code
+drawable rounded_bg
 drawable rounded_drawable
 drawable shapesignup
 drawable usman
@@ -73,6 +74,7 @@ id OTPBtn
 id PasswordTextField
 id PhoneTTextField
 id PhoneTextField
+id Profile_Image
 id RegNoTextField
 id SerialNoTextField
 id VisitorTypeTextField
@@ -162,6 +164,7 @@ id rootView
 id salutation
 id saveBtn
 id scanButton
+id scanHere
 id scroll
 id serialNo_text
 id signBtn

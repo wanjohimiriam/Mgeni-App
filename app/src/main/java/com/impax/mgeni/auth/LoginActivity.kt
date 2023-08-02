@@ -91,6 +91,23 @@ class LoginActivity : AppCompatActivity() {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //        viewpager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
 //
 //            override fun onPageScrollStateChanged(state: Int) {

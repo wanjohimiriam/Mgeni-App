@@ -28,6 +28,7 @@
                 android:layout_gravity="center"
                 android:id="@+id/create_accountTV"
                 android:text="CHECK IN"
+
                 android:textColor="@color/black"
                 tools:ignore="HardcodedText" />
 
