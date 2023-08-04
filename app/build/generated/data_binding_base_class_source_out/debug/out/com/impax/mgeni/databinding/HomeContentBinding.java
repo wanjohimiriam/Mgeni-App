@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.impax.mgeni.R;
@@ -27,10 +28,22 @@ public final class HomeContentBinding implements ViewBinding {
   public final ImageButton ProfileImage;
 
   @NonNull
+  public final TextView QRScan;
+
+  @NonNull
+  public final ImageView QRscan;
+
+  @NonNull
+  public final CardView cardRecyc;
+
+  @NonNull
   public final CardView cardView;
 
   @NonNull
-  public final CardView cardView1;
+  public final CardView cardView2;
+
+  @NonNull
+  public final CardView cardView3;
 
   @NonNull
   public final TextView checkOut;
@@ -45,13 +58,7 @@ public final class HomeContentBinding implements ViewBinding {
   public final LinearLayout layout;
 
   @NonNull
-  public final LinearLayout layout1;
-
-  @NonNull
-  public final TextView qrcode;
-
-  @NonNull
-  public final TextView scanHere;
+  public final RecyclerView listData;
 
   @NonNull
   public final TextView tenantName;
@@ -69,22 +76,25 @@ public final class HomeContentBinding implements ViewBinding {
   public final View view;
 
   private HomeContentBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton ProfileImage,
-      @NonNull CardView cardView, @NonNull CardView cardView1, @NonNull TextView checkOut,
-      @NonNull ImageView checkOutIcon, @NonNull ImageView checkinIcon, @NonNull LinearLayout layout,
-      @NonNull LinearLayout layout1, @NonNull TextView qrcode, @NonNull TextView scanHere,
-      @NonNull TextView tenantName, @NonNull TextView textView, @NonNull TextView textView2,
-      @NonNull TextView time, @NonNull View view) {
+      @NonNull TextView QRScan, @NonNull ImageView QRscan, @NonNull CardView cardRecyc,
+      @NonNull CardView cardView, @NonNull CardView cardView2, @NonNull CardView cardView3,
+      @NonNull TextView checkOut, @NonNull ImageView checkOutIcon, @NonNull ImageView checkinIcon,
+      @NonNull LinearLayout layout, @NonNull RecyclerView listData, @NonNull TextView tenantName,
+      @NonNull TextView textView, @NonNull TextView textView2, @NonNull TextView time,
+      @NonNull View view) {
     this.rootView = rootView;
     this.ProfileImage = ProfileImage;
+    this.QRScan = QRScan;
+    this.QRscan = QRscan;
+    this.cardRecyc = cardRecyc;
     this.cardView = cardView;
-    this.cardView1 = cardView1;
+    this.cardView2 = cardView2;
+    this.cardView3 = cardView3;
     this.checkOut = checkOut;
     this.checkOutIcon = checkOutIcon;
     this.checkinIcon = checkinIcon;
     this.layout = layout;
-    this.layout1 = layout1;
-    this.qrcode = qrcode;
-    this.scanHere = scanHere;
+    this.listData = listData;
     this.tenantName = tenantName;
     this.textView = textView;
     this.textView2 = textView2;
@@ -125,15 +135,39 @@ public final class HomeContentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.QRScan;
+      TextView QRScan = ViewBindings.findChildViewById(rootView, id);
+      if (QRScan == null) {
+        break missingId;
+      }
+
+      id = R.id.QRscan;
+      ImageView QRscan = ViewBindings.findChildViewById(rootView, id);
+      if (QRscan == null) {
+        break missingId;
+      }
+
+      id = R.id.cardRecyc;
+      CardView cardRecyc = ViewBindings.findChildViewById(rootView, id);
+      if (cardRecyc == null) {
+        break missingId;
+      }
+
       id = R.id.cardView;
       CardView cardView = ViewBindings.findChildViewById(rootView, id);
       if (cardView == null) {
         break missingId;
       }
 
-      id = R.id.cardView1;
-      CardView cardView1 = ViewBindings.findChildViewById(rootView, id);
-      if (cardView1 == null) {
+      id = R.id.cardView2;
+      CardView cardView2 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView3;
+      CardView cardView3 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView3 == null) {
         break missingId;
       }
 
@@ -161,21 +195,9 @@ public final class HomeContentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.layout1;
-      LinearLayout layout1 = ViewBindings.findChildViewById(rootView, id);
-      if (layout1 == null) {
-        break missingId;
-      }
-
-      id = R.id.qrcode;
-      TextView qrcode = ViewBindings.findChildViewById(rootView, id);
-      if (qrcode == null) {
-        break missingId;
-      }
-
-      id = R.id.scanHere;
-      TextView scanHere = ViewBindings.findChildViewById(rootView, id);
-      if (scanHere == null) {
+      id = R.id.listData;
+      RecyclerView listData = ViewBindings.findChildViewById(rootView, id);
+      if (listData == null) {
         break missingId;
       }
 
@@ -209,9 +231,9 @@ public final class HomeContentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new HomeContentBinding((ConstraintLayout) rootView, ProfileImage, cardView, cardView1,
-          checkOut, checkOutIcon, checkinIcon, layout, layout1, qrcode, scanHere, tenantName,
-          textView, textView2, time, view);
+      return new HomeContentBinding((ConstraintLayout) rootView, ProfileImage, QRScan, QRscan,
+          cardRecyc, cardView, cardView2, cardView3, checkOut, checkOutIcon, checkinIcon, layout,
+          listData, tenantName, textView, textView2, time, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

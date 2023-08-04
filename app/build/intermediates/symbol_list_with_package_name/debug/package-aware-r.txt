@@ -2831,6 +2831,8 @@ id PasswordTextField
 id PhoneTTextField
 id PhoneTextField
 id Profile_Image
+id QRScan
+id QRscan
 id RegNoTextField
 id SHIFT
 id SHOW_ALL
@@ -2946,8 +2948,10 @@ id callMeasure
 id cancelBtn
 id cancel_button
 id cardLayout
+id cardRecyc
 id cardView
-id cardView1
+id cardView2
+id cardView3
 id cardViewGraph
 id carryVelocity
 id cbn_item_internal_container
@@ -3125,7 +3129,6 @@ id jumpToStart
 id lNameTv
 id labeled
 id layout
-id layout1
 id left
 id leftToRight
 id legacy
@@ -3259,7 +3262,6 @@ id progress_circular
 id progress_horizontal
 id progressbar
 id project
-id qrcode
 id radio
 id ratio
 id reasonTextField
@@ -3286,7 +3288,6 @@ id save_overlay_view
 id sawtooth
 id scale
 id scanButton
-id scanHere
 id screen
 id scroll
 id scrollIndicatorDown

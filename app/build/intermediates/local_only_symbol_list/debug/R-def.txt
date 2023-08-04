@@ -75,6 +75,8 @@ id PasswordTextField
 id PhoneTTextField
 id PhoneTextField
 id Profile_Image
+id QRScan
+id QRscan
 id RegNoTextField
 id SerialNoTextField
 id VisitorTypeTextField
@@ -87,8 +89,10 @@ id btnContinue
 id buttonLayout
 id cancelBtn
 id cardLayout
+id cardRecyc
 id cardView
-id cardView1
+id cardView2
+id cardView3
 id cardViewGraph
 id checkIn
 id checkInBtn
@@ -130,7 +134,6 @@ id imageView
 id imageView2
 id lNameTv
 id layout
-id layout1
 id linearLayout2
 id listData
 id loginBtn
@@ -152,7 +155,6 @@ id profileB
 id profile_image
 id progressbar
 id project
-id qrcode
 id reasonTextField
 id reason_text
 id regNo_text
@@ -164,7 +166,6 @@ id rootView
 id salutation
 id saveBtn
 id scanButton
-id scanHere
 id scroll
 id serialNo_text
 id signBtn

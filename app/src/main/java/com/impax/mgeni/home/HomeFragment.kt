@@ -47,7 +47,7 @@ class HomeFragment : Fragment()
         Log.d("shared",sharedPrefs!!.getItem("loggedIn") + sharedPrefs!!.getItem("email"))
 
         // getting the views by its id
-         recyclerview = view.findViewById(R.id.listData)
+//         recyclerview = view.findViewById(R.id.listData)
          checkIns = view.findViewById(R.id.totalCheckins)
          checkOuts = view.findViewById(R.id.todayCheckouts)
          listBtn = view.findViewById(R.id.backB)

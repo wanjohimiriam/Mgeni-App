@@ -57,6 +57,7 @@ MERGED from [androidx.camera:camera-extensions:1.1.0-beta03] C:\Users\Intern\.gr
 MERGED from [androidx.camera:camera-camera2:1.2.1] C:\Users\Intern\.gradle\caches\transforms-3\ef2d33a59867b568ca9a22427000ef6d\transformed\camera-camera2-1.2.1\AndroidManifest.xml:17:1-36:12
 MERGED from [androidx.camera:camera-video:1.1.0-beta03] C:\Users\Intern\.gradle\caches\transforms-3\652134e33dee746084eb2f5d0a7ed296\transformed\camera-video-1.1.0-beta03\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.camera:camera-core:1.2.1] C:\Users\Intern\.gradle\caches\transforms-3\737eb4df328d8843868e667317080bcb\transformed\camera-core-1.2.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Intern\.gradle\caches\transforms-3\94888ce45f5d473e7b2e8705a3356b39\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Intern\.gradle\caches\transforms-3\2d59ae5c432e5743faf5506089d77eb7\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Intern\.gradle\caches\transforms-3\7bdec61f967fd0e59351c6b4b652e84a\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Intern\.gradle\caches\transforms-3\b693cd22ebf832f14ed6fe33e26caf3c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
@@ -64,7 +65,6 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Intern
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Intern\.gradle\caches\transforms-3\770b86b1dc816f74c4bb512f6f75950f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Intern\.gradle\caches\transforms-3\5492cc8fa29b0bdc49357ef629c0e309\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\Intern\.gradle\caches\transforms-3\b6373b698fe399262d5ce9c31a148d63\transformed\work-runtime-2.7.0\AndroidManifest.xml:17:1-145:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Intern\.gradle\caches\transforms-3\3bd35283708c268261c395ebe2ebd127\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Intern\.gradle\caches\transforms-3\3b3a0bce48d33f2c1b5d63dcfcb52dcd\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Intern\.gradle\caches\transforms-3\0f262ab60b7702e3eb0b65eae9d7d303\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\Intern\.gradle\caches\transforms-3\7dd1a03a85f5885e9a849a16d2913bd5\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -429,6 +429,8 @@ MERGED from [androidx.camera:camera-video:1.1.0-beta03] C:\Users\Intern\.gradle\
 MERGED from [androidx.camera:camera-video:1.1.0-beta03] C:\Users\Intern\.gradle\caches\transforms-3\652134e33dee746084eb2f5d0a7ed296\transformed\camera-video-1.1.0-beta03\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.camera:camera-core:1.2.1] C:\Users\Intern\.gradle\caches\transforms-3\737eb4df328d8843868e667317080bcb\transformed\camera-core-1.2.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.camera:camera-core:1.2.1] C:\Users\Intern\.gradle\caches\transforms-3\737eb4df328d8843868e667317080bcb\transformed\camera-core-1.2.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Intern\.gradle\caches\transforms-3\94888ce45f5d473e7b2e8705a3356b39\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Intern\.gradle\caches\transforms-3\94888ce45f5d473e7b2e8705a3356b39\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Intern\.gradle\caches\transforms-3\2d59ae5c432e5743faf5506089d77eb7\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Intern\.gradle\caches\transforms-3\2d59ae5c432e5743faf5506089d77eb7\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Intern\.gradle\caches\transforms-3\7bdec61f967fd0e59351c6b4b652e84a\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
@@ -443,8 +445,6 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Intern\.grad
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Intern\.gradle\caches\transforms-3\5492cc8fa29b0bdc49357ef629c0e309\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\Intern\.gradle\caches\transforms-3\b6373b698fe399262d5ce9c31a148d63\transformed\work-runtime-2.7.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\Intern\.gradle\caches\transforms-3\b6373b698fe399262d5ce9c31a148d63\transformed\work-runtime-2.7.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Intern\.gradle\caches\transforms-3\3bd35283708c268261c395ebe2ebd127\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Intern\.gradle\caches\transforms-3\3bd35283708c268261c395ebe2ebd127\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Intern\.gradle\caches\transforms-3\3b3a0bce48d33f2c1b5d63dcfcb52dcd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Intern\.gradle\caches\transforms-3\3b3a0bce48d33f2c1b5d63dcfcb52dcd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Intern\.gradle\caches\transforms-3\0f262ab60b7702e3eb0b65eae9d7d303\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
