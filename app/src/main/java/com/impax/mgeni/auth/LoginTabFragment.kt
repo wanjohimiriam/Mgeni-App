@@ -15,6 +15,7 @@ import com.google.android.material.textfield.TextInputLayout
 import com.impax.mgeni.R
 import com.impax.mgeni.commons.SharedPrefs
 import com.impax.mgeni.home.HomePage
+import com.impax.mgeni.ocr.MainMrzActivity
 
 class LoginTabFragment : Fragment() {
 
@@ -55,6 +56,7 @@ class LoginTabFragment : Fragment() {
     private lateinit var textEmail: TextInputLayout
     private lateinit var textEmailAddress: TextInputEditText
     private lateinit var textPassword: TextInputLayout
+    private lateinit var resetPass: TextView
 //    private lateinit var btnLogin: Button
 
     override fun onCreateView(
@@ -68,11 +70,15 @@ class LoginTabFragment : Fragment() {
         textEmailAddress = rootView.findViewById(R.id.emailAddress)
         textPassword = rootView.findViewById(R.id.PasswordTextField)
         btnLogin = rootView.findViewById(R.id.loginBtn)
+        resetPass = rootView.findViewById(R.id.resetPass)
 
+        //reset pass
+        resetPass.setOnClickListener{
+            val intent = Intent(requireContext(), OTPActivity::class.java)
+            startActivity(intent)
+        }
 
         // Set the click listener for the btnLogin button
-
-
         btnLogin?.setOnClickListener {
             if (textEmail.editText?.text.toString()
                     .isEmpty() || textPassword.editText?.text.toString().isEmpty()

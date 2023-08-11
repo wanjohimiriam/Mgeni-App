@@ -169,6 +169,7 @@ id scanButton
 id scroll
 id serialNo_text
 id signBtn
+id surfaceView
 id tabs
 id tabs_layout
 id tenantName
@@ -209,6 +210,7 @@ layout activity_ocractivity
 layout activity_otpactivity
 layout activity_password
 layout activity_profile
+layout activity_qr_side
 layout card_view_design
 layout content_home
 layout dashboard

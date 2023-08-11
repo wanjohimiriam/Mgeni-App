@@ -84,6 +84,10 @@
         "source": "com.impax.mgeni.app-main-58:/drawable/visitors.xml"
     },
     {
+        "merged": "com.impax.mgeni.app-merged_res-56:/layout_activity_qr_side.xml.flat",
+        "source": "com.impax.mgeni.app-main-58:/layout/activity_qr_side.xml"
+    },
+    {
         "merged": "com.impax.mgeni.app-merged_res-56:/font_roboto_light.ttf.flat",
         "source": "com.impax.mgeni.app-main-58:/font/roboto_light.ttf"
     },

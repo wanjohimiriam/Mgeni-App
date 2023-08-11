@@ -4,6 +4,10 @@
         "source": "com.impax.mgeni.app-main-58:/layout/login_tab.xml"
     },
     {
+        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_qr_side.xml",
+        "source": "com.impax.mgeni.app-main-58:/layout/activity_qr_side.xml"
+    },
+    {
         "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/dashboard.xml",
         "source": "com.impax.mgeni.app-main-58:/layout/dashboard.xml"
     },

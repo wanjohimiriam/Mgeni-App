@@ -4,7 +4,7 @@
             "outputFile": "com.impax.mgeni.app-mergeDebugResources-54:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Intern\\.gradle\\caches\\transforms-3\\bbf7529e960b2bcdef0ec11877714f6f\\transformed\\appcompat-1.5.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\TEMP.IMPAXAFRICA\\.gradle\\caches\\transforms-3\\bbf7529e960b2bcdef0ec11877714f6f\\transformed\\appcompat-1.5.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

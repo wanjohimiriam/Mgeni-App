@@ -4,7 +4,7 @@
             "outputFile": "com.impax.mgeni.app-mergeDebugResources-54:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Intern\\.gradle\\caches\\transforms-3\\2245874e47639b9745c02c49451b59d0\\transformed\\material-1.7.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\TEMP.IMPAXAFRICA\\.gradle\\caches\\transforms-3\\2245874e47639b9745c02c49451b59d0\\transformed\\material-1.7.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Intern\\.gradle\\caches\\transforms-3\\bbf7529e960b2bcdef0ec11877714f6f\\transformed\\appcompat-1.5.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\TEMP.IMPAXAFRICA\\.gradle\\caches\\transforms-3\\bbf7529e960b2bcdef0ec11877714f6f\\transformed\\appcompat-1.5.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

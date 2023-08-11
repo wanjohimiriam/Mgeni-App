@@ -3349,6 +3349,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id surfaceView
 id tabMode
 id tabs
 id tabs_layout
@@ -3582,6 +3583,7 @@ layout activity_ocractivity
 layout activity_otpactivity
 layout activity_password
 layout activity_profile
+layout activity_qr_side
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout card_view_design

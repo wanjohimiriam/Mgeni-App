@@ -20,7 +20,7 @@ class MainMrzActivity : AppCompatActivity(), CardResult
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_mrz)
+        setContentView(R.layout.activity_qr_side)
         viewBinding = ActivityMainMrzBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
         initializeCamera()
