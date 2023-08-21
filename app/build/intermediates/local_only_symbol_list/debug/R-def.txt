@@ -84,9 +84,11 @@ id VisitorType_text
 id assetBarcodeTextField
 id assetBarcode_text
 id backB
+id barcode_line
 id bottomNav
 id btnContinue
 id buttonLayout
+id cameraSurfaceView
 id cancelBtn
 id cardLayout
 id cardRecyc
@@ -220,6 +222,7 @@ layout fragment_home
 layout home_content
 layout login_tab
 layout mrz_card_view_layout
+layout scanqr
 layout signup_tab
 menu bottom_menu
 mipmap ic_launcher

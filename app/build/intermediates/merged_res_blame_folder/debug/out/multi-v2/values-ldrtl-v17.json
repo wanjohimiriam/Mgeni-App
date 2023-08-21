@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.impax.mgeni.app-mergeDebugResources-54:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.impax.mgeni.app-mergeDebugResources-55:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\TEMP.IMPAXAFRICA\\.gradle\\caches\\transforms-3\\2245874e47639b9745c02c49451b59d0\\transformed\\material-1.7.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\Intern\\.gradle\\caches\\transforms-3\\2245874e47639b9745c02c49451b59d0\\transformed\\material-1.7.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

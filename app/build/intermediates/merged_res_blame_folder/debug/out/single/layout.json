@@ -1,90 +1,94 @@
 [
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/login_tab.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/login_tab.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_check_out.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_check_out.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_qr_side.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_qr_side.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/dashboard.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/dashboard.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/dashboard.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/dashboard.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/fragment_home.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_ocractivity.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_ocractivity.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_login.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_login.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_main.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_main.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/card_view_design.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/card_view_design.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_check_out.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_check_out.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/login_tab.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/login_tab.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/card_view_design.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/card_view_design.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/fragment_checkin.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/fragment_checkin.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_home_page.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_home_page.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_main_mrz.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_main_mrz.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/signup_tab.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/signup_tab.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_check_in.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_check_in.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_login.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_login.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/home_content.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/home_content.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_profile.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_profile.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_otpactivity.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_otpactivity.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_login_0ld.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_login_0ld.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_main.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_main.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_check_in.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_check_in.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/content_home.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/content_home.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/fragment_home.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/fragment_home.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_profile.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_profile.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_main_mrz.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_main_mrz.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_login_0ld.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_login_0ld.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/mrz_card_view_layout.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/mrz_card_view_layout.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_qr_side.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_qr_side.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/home_content.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/home_content.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/fragment_checkout.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/fragment_checkout.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/fragment_checkin.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/fragment_checkin.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_password.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_password.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/content_home.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/content_home.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_ocractivity.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_ocractivity.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/fragment_checkout.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/fragment_checkout.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/activity_home_page.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/activity_home_page.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_password.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_password.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/scanqr.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/scanqr.xml"
     },
     {
-        "merged": "com.impax.mgeni.app-mergeDebugResources-55:/layout/activity_otpactivity.xml",
-        "source": "com.impax.mgeni.app-main-58:/layout/activity_otpactivity.xml"
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/signup_tab.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/signup_tab.xml"
+    },
+    {
+        "merged": "com.impax.mgeni.app-mergeDebugResources-56:/layout/mrz_card_view_layout.xml",
+        "source": "com.impax.mgeni.app-main-59:/layout/mrz_card_view_layout.xml"
     }
 ]

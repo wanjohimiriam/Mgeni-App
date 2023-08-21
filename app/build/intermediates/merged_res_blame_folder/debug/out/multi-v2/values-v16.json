@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.impax.mgeni.app-mergeDebugResources-54:/values-v16/values-v16.xml",
+            "outputFile": "com.impax.mgeni.app-mergeDebugResources-55:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\TEMP.IMPAXAFRICA\\.gradle\\caches\\transforms-3\\3acf0b7a96748be5980b4950a1a13e46\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\TEMP.IMPAXAFRICA\\.gradle\\caches\\transforms-3\\bbf7529e960b2bcdef0ec11877714f6f\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Intern\\.gradle\\caches\\transforms-3\\bbf7529e960b2bcdef0ec11877714f6f\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Intern\\.gradle\\caches\\transforms-3\\3acf0b7a96748be5980b4950a1a13e46\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]
